@@ -41,16 +41,17 @@ public class Vehicle {
     /**
      * The Constructor.
      *
-     * @param color - color from user
-     * @param plate - plate from user
-     * @param doors - doors from user
-     * @param maxspeed - maxspeed from user
+     * @param color1 - color from user
+     * @param plate1 - plate from user
+     * @param doors1 - doors from user
+     * @param maxspeed1 - maxspeed from user
      */
-    Vehicle(String color, String plate, int doors, int maxspeed) {
-        this.color = color;
-        this.plate = plate;
-        this.doors = doors;
-        this.maxspeed = maxspeed;
+    public Vehicle(final String color1, final String plate1,
+                    final int doors1, final int maxspeed1) {
+        this.color = color1;
+        this.plate = plate1;
+        this.doors = doors1;
+        this.maxspeed = maxspeed1;
     }
 
     /**
