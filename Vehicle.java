@@ -104,7 +104,7 @@ public class Vehicle {
      *
      * @param somePlate - the plate value from user
      */
-    public void setPlate(String somePlate) {
+    public void setPlate(final String somePlate) {
         this.plate = somePlate;
     }
 
@@ -113,7 +113,7 @@ public class Vehicle {
      *
      * @param someColor - the color value from user
      */
-    public void setColor(String someColor) {
+    public void setColor(final String someColor) {
         this.color = someColor;
     }
 
